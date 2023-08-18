@@ -334,3 +334,99 @@ footer > p{
   
   .name, .email, .message { padding: 15px; font-size: 1.5rem; width:400px}
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    justify-content: center;
+    padding: 1rem 0;
+  }
+
+  nav a {
+    padding: 0.5rem;
+    font-size: 1.4rem;
+  }
+
+  .hero-section {
+    padding: 8rem 0;
+  }
+
+  .hero-section h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1.6rem;
+  }
+
+  .skills-section {
+    padding: 4rem 0;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 2rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  svg {
+    height: 6em;
+  }
+
+  .skills-container p {
+    font-size: 1.4rem;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+    grid-row-gap: 2rem;
+  }
+
+  .projects-section h3 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .projects-container .project p {
+    font-size: 1.4rem;
+  }
+
+  .aboutme-container {
+    flex-direction: column;
+  }
+
+  .aboutme-container img {
+    max-width: 100%;
+  }
+
+  .aboutme-container h4 {
+    font-size: 2.5rem;
+  }
+
+  .aboutme-container p {
+    font-size: 1.6rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-container h3 {
+    font-size: 2.5rem;
+  }
+
+  .contact-container p {
+    font-size: 1.6rem;
+  }
+
+  .form input,
+  .form textarea {
+    font-size: 1.4rem;
+  }
+
+  .form .btn {
+    font-size: 1.6rem;
+  }
+}
