@@ -311,7 +311,7 @@ footer > p{
 }
 
 @media (max-width: 900px){
-  nav a{color:rgb(250, 243, 240)}
+/*   nav a{color:rgb(250, 243, 240)} */
   
   .hero-section h1 {font-size: 4rem;}
   
@@ -385,7 +385,7 @@ footer > p{
   }
 
   .projects-section h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-bottom: 1rem;
   }
 
@@ -402,11 +402,11 @@ footer > p{
   }
 
   .aboutme-container h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .aboutme-container p {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 
   .contact-container {
@@ -414,19 +414,19 @@ footer > p{
   }
 
   .contact-container h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .contact-container p {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 
   .form input,
   .form textarea {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   .form .btn {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 }
