@@ -303,15 +303,15 @@ footer{
 }
 
 footer > p{
-  padding: 20px;
+  padding: 15px;
   margin: 0;
   color: white;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 900px){
-/*   nav a{color:rgb(250, 243, 240)} */
+  /* nav a{color:rgb(250, 243, 240)} */
   
   .hero-section h1 {font-size: 4rem;}
   
@@ -335,6 +335,9 @@ footer > p{
   .name, .email, .message { padding: 15px; font-size: 1.5rem; width:400px}
 }
 
+/* Add this code to your existing CSS */
+
+/* Media query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
   nav {
     justify-content: center;
@@ -429,4 +432,19 @@ footer > p{
   .form .btn {
     font-size: 1rem;
   }
+
+  footer > p{
+    padding: 5px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .btn{
+  padding: 19px 0px;
+  background-color: #FA7070;
+  font-size: 1.5rem;
+  border: none;
+  color: white;}
 }
