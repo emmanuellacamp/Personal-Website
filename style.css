@@ -350,7 +350,7 @@ footer > p{
   }
 
   .hero-section {
-    padding: 8rem 0;
+    padding: 8rem 1.2rem;
   }
 
   .hero-section h1 {
@@ -362,7 +362,8 @@ footer > p{
   }
 
   .skills-section {
-    padding: 4rem 0;
+    padding: 4rem 1rem;
+    
   }
 
   .skills-container {
@@ -389,6 +390,7 @@ footer > p{
 
   .projects-section h3 {
     font-size: 2rem;
+    padding: 0 1.2rem;
     padding-bottom: 1rem;
   }
 
@@ -398,18 +400,23 @@ footer > p{
 
   .aboutme-container {
     flex-direction: column;
+    
   }
 
   .aboutme-container img {
     max-width: 100%;
+    margin-bottom: 1.5rem;
   }
 
   .aboutme-container h4 {
+    margin-bottom: 1rem;
     font-size: 2rem;
+    padding: 0 1.2rem;
   }
 
   .aboutme-container p {
     font-size: 1rem;
+    padding: 0 1.2rem;
   }
 
   .contact-container {
@@ -423,10 +430,20 @@ footer > p{
   .contact-container p {
     font-size: 1rem;
   }
+  
+  .form-container{
+    width: 100%;
+    max-width: 320px;
+  }
+  
+
 
   .form input,
   .form textarea {
     font-size: 1rem;
+    width: 100%; 
+    padding: 0.5rem; 
+    margin-bottom: 1rem; 
   }
 
   .form .btn {
@@ -448,3 +465,5 @@ footer > p{
   border: none;
   color: white;}
 }
+
+
