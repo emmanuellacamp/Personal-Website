@@ -431,7 +431,7 @@ footer > p{
     font-size: 1rem;
   }
   
-  .form-container{
+  .form{
     width: 100%;
     max-width: 320px;
     display: flex;
